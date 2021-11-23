@@ -62,3 +62,21 @@ The behaviour is the same with `os list` and `os describe`.
 ![os_create_stack](https://user-images.githubusercontent.com/22433243/143079082-9550bb66-b580-403f-8ee4-0c8af1186926.gif)
 
 ![os_describe_stack](https://user-images.githubusercontent.com/22433243/143079102-7317a7c5-8bad-407c-9711-9896c9bed4e3.gif)
+
+## AutoComplete
+
+Fish:
+```
+ eval (./auto_complete_fish.sh )
+```
+
+Bash:
+```
+ . ./auto_complete_bash.sh 
+```
+
+Zsh:
+```
+ . ./auto_complete_zsh.sh 
+```
+
