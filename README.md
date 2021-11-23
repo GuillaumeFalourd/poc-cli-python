@@ -1,6 +1,6 @@
 # poc-cli-python
 
-POC of a CLI project using Python 🐍
+POC of a CLI project using Python and [Click 8.0.x](https://click.palletsprojects.com/en/8.0.x/api/) 🐍
 
 ## Setup
 
