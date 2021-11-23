@@ -46,7 +46,9 @@ eval (./auto_complete_fish.sh )
 . ./auto_complete_zsh.sh
 ```
 
-Then, the autocomplete should be activated using <TAB> <TAB>
+Then, the autocomplete should be activated using `<TAB> <TAB>`
+
+![autocomplete_decorator](https://user-images.githubusercontent.com/22433243/143119442-69ca57cc-9612-4fb2-9ba0-1ae25ed364ba.gif)
 
 ## Usage
 
