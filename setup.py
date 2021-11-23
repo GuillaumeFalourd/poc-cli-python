@@ -5,7 +5,7 @@ setup(
     version='0.1',
     py_modules=['cli'],
     install_requires=[
-        'Click',
+        'Click>=8.0.3',
         'progress',
         'inquirer',
     ],
