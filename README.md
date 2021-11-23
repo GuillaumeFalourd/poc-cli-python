@@ -24,6 +24,30 @@ Finally:
 python3 -m pip install --editable .
 ```
 
+### AutoComplete
+
+Run the following command according to the shell you're working with:
+
+**Fish:**
+
+```shell
+eval (./auto_complete_fish.sh )
+```
+
+**Bash:**
+
+```shell
+. ./auto_complete_bash.sh
+```
+
+**Zsh:**
+
+```shell
+. ./auto_complete_zsh.sh
+```
+
+Then, the autocomplete should be activated using <TAB> <TAB>
+
 ## Usage
 
 After the setup above, you'll be able to use the command by typing `os`:
@@ -62,23 +86,3 @@ The behaviour is the same with `os list` and `os describe`.
 ![os_create_stack](https://user-images.githubusercontent.com/22433243/143079082-9550bb66-b580-403f-8ee4-0c8af1186926.gif)
 
 ![os_describe_stack](https://user-images.githubusercontent.com/22433243/143079102-7317a7c5-8bad-407c-9711-9896c9bed4e3.gif)
-
-## AutoComplete
-
-Fish:
-
-```shell
-eval (./auto_complete_fish.sh )
-```
-
-Bash:
-
-```shell
-. ./auto_complete_bash.sh
-```
-
-Zsh:
-
-```shell
-. ./auto_complete_zsh.sh
-```

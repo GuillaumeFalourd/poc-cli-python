@@ -38,4 +38,5 @@
 /env/
 /os.egg-info/
 __pycache__/**
+os.egg-info/**
 **.pyc

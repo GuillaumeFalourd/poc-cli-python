@@ -1,5 +1,4 @@
 import click
-import click_completion
 
 from create import commands as c
 from list import commands as l
