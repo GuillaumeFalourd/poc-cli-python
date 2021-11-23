@@ -1,0 +1,39 @@
+# Created by https://www.gitignore.io
+
+### Go ###
+# Binaries for programs and plugins
+*.dll
+*.so
+*.dylib
+
+/bin/
+/dist/*
+/test/tests.*
+/test/coverage.*
+/go.sum
+.scannerwork
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+### Go Patch ###
+#/vendor/
+/Godeps/
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+/__pycache__/
+/env/
+/os.egg-info/
