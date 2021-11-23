@@ -1,0 +1,9 @@
+README.md
+cli.py
+setup.py
+os.egg-info/PKG-INFO
+os.egg-info/SOURCES.txt
+os.egg-info/dependency_links.txt
+os.egg-info/entry_points.txt
+os.egg-info/requires.txt
+os.egg-info/top_level.txt
