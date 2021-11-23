@@ -17,7 +17,11 @@ def stack(env, stack_name):
     click.echo('Stack {0} created successfully!'.format(stack_name))
 
 @create.command()
-def template():
+@click.argument('name')
+@click.argument('url')
+def template(name, url):
+    click.echo("Name: {0}".format(name))
+    click.echo("URL: {0}".format(url))
     click.echo("Create a template")
 
 def download(message, value):

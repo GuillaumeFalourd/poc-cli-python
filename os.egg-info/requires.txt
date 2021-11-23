@@ -1,3 +1,4 @@
 Click
 progress
 inquirer
+click_completion
