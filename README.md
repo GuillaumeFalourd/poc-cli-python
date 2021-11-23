@@ -66,17 +66,19 @@ The behaviour is the same with `os list` and `os describe`.
 ## AutoComplete
 
 Fish:
-```
- eval (./auto_complete_fish.sh )
+
+```shell
+eval (./auto_complete_fish.sh )
 ```
 
 Bash:
-```
- . ./auto_complete_bash.sh 
+
+```shell
+. ./auto_complete_bash.sh
 ```
 
 Zsh:
-```
- . ./auto_complete_zsh.sh 
-```
 
+```shell
+. ./auto_complete_zsh.sh
+```
