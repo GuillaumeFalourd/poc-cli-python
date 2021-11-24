@@ -62,6 +62,7 @@ Options:
   --help  Show this message and exit.
 
 Commands:
+  apply
   create
   describe
   list
@@ -81,7 +82,7 @@ Commands:
   template
   ```
 
-The behaviour is the same with `os list` and `os describe`.
+The behaviour is the same with `os list`, `os describe` and `os apply`.
 
 ## Demo
 

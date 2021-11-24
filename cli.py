@@ -1,17 +1,18 @@
 import click
 
+from apply import commands as a
 from create import commands as c
-from list import commands as l
 from describe import commands as d
+from list import commands as l
 
 @click.group()
 def cli():
     pass
 
-
+cli.add_command(a.apply)
 cli.add_command(c.create)
-cli.add_command(l.list)
 cli.add_command(d.describe)
+cli.add_command(l.list)
 
 def main():
     cli(prog_name="os")
