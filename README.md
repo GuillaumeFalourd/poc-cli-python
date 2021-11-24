@@ -84,6 +84,16 @@ Commands:
 
 The behaviour is the same with `os list`, `os describe` and `os apply`.
 
+### Callback
+
+Using this annotation in the `cli.py` class allows to execute functions after each command execution.
+
+```python
+@cli.resultcallback()
+def process_result(result, **kwargs):
+    click.echo('After command')
+```
+
 ## Demo
 
 ![os_create_stack](https://user-images.githubusercontent.com/22433243/143079082-9550bb66-b580-403f-8ee4-0c8af1186926.gif)
