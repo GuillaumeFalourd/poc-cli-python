@@ -94,6 +94,8 @@ def process_result(result, **kwargs):
     click.echo('After command')
 ```
 
+![callback](https://user-images.githubusercontent.com/22433243/143256131-c0ffa09b-5899-4c70-91de-7c6fe469affc.png)
+
 ## Demo
 
 ![os_create_stack](https://user-images.githubusercontent.com/22433243/143079082-9550bb66-b580-403f-8ee4-0c8af1186926.gif)
