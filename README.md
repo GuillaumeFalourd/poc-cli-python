@@ -88,3 +88,6 @@ The behaviour is the same with `os list` and `os describe`.
 ![os_create_stack](https://user-images.githubusercontent.com/22433243/143079082-9550bb66-b580-403f-8ee4-0c8af1186926.gif)
 
 ![os_describe_stack](https://user-images.githubusercontent.com/22433243/143079102-7317a7c5-8bad-407c-9711-9896c9bed4e3.gif)
+
+![os_apply_plugin](https://user-images.githubusercontent.com/22433243/143255418-ad915a3d-2b89-4eba-95d6-47df2f60d34e.gif)
+
