@@ -9,6 +9,10 @@ from list import commands as l
 def cli():
     pass
 
+@cli.resultcallback()
+def process_result(result, **kwargs):
+    click.echo('After command')
+
 cli.add_command(a.apply)
 cli.add_command(c.create)
 cli.add_command(d.describe)
